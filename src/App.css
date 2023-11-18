@@ -1,38 +1,58 @@
-.App {
+.mainContainer {
+  background: rgb(236, 234, 234);
+  width: 600px;
+  height: 80vh;
+  padding: 75px;
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.mainContainer div {
+  display: flex;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.mainContainer #card {
+  width: 420px;
   display: flex;
   flex-direction: column;
+}
+label {
+  font-size: x-large;
+}
+input {
+  width: 350px;
+  height: 35px;
+  font-size: 25px;
+  background: #f5f3f3;
+}
+#addBtn {
+  width: 70px;
+  height: 35px;
+  color: white;
+  background-color: crimson;
+  border: none;
+}
+#editBtn {
+  width: 70px;
+  height: 35px;
+  color: white;
+  background-color: rgb(23, 20, 220);
+  border: none;
+}
+#delBtn {
+  width: 70px;
+  height: 35px;
+  color: white;
+  background-color: rgb(23, 20, 220);
+  border: none;
+  margin-right: 10px;
+}
+.cardContainer {
+  margin-top: 15px;
+  background-color: white;
+  width: 420px;
+  display: flex;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  justify-content: space-around;
 }
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+/* .cardContainer button {
+ 
+} */
